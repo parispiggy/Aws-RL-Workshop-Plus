@@ -202,4 +202,12 @@
     <path
        transform="translate(80.812209,648.6891)"
        d="m 76.771591,97.596855 a 40.406101,40.406101 0 1 1 -80.8122023,0 40.406101,40.406101 0 1 1 80.8122023,0 z"
-       sodipo
+       sodipodi:ry="40.406101"
+       sodipodi:rx="40.406101"
+       sodipodi:cy="97.596855"
+       sodipodi:cx="36.36549"
+       id="path3785"
+       style="fill:#ffeeaa;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="arc" />
+    <path
+       sod
