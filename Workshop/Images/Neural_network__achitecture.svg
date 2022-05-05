@@ -315,4 +315,14 @@
        inkscape:connection-end-point="d4"
        transform="translate(0,308.2677)" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-start:n
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-start:none;marker-mid:none;marker-end:url(#Arrow1Mend)"
+       d="m 156.69943,348.48086 185.61651,39.67375"
+       id="path4441"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#path3773"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#path3757"
+       inkscape:connection-end-point="d4"
+       transform="translate(0,308.2677)" />
+   
