@@ -483,4 +483,12 @@
        style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#Arrow1Mend)"
        d="m 422.23886,193.93526 175.77636,-2.76814"
        id="path4479"
-       inksca
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#path2985"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#path3789"
+       inkscape:connection-end-point="d4"
+       transform="translate(0,308.2677)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-op
