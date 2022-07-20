@@ -524,4 +524,11 @@
        inkscape:connection-end-point="d4"
        transform="translate(0,308.2677)" />
     <path
-       style="fil
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#Arrow1Mend)"
+       d="M 419.24056,280.27217 601.01352,205.84546"
+       id="path4487"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#path3755"
+       inkscape:connection-start-point="d4"
+ 
