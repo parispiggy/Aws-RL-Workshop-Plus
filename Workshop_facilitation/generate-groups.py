@@ -72,4 +72,17 @@ def download_files(bucket_name, LINK_FOLDER):
 
 
     s3 = boto3.resource('s3')
-    rl_buc
+    rl_bucket = s3.Bucket(bucket_name)
+
+    # Downloads only files with an ip as name in the bucket
+    for element in rl_bucket.objects.all():
+
+        element_list = element.key.split('/')
+
+        if element_list[0] == LINK_FOLDER and os.path.splitext(
+                element_list[-1])[-1] == '.txt':
+            p_ip, _ = os.path.splitext(element_list[-1])
+
+            if p_ip in ip_dict.values():
+
+                s3.meta.client.downl
