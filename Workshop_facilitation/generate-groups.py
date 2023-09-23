@@ -111,4 +111,19 @@ def allocate_new_groups():
         link_temp = ''
         try:
             with open(Path(TMP_FOLDER).joinpath(
-       
+                    popped_active_ip + '.txt'), 'r') as link_file:
+                link_temp = link_file.read().replace('\n', '')
+        except IOError:
+            link_temp = 'NO LINK FOUND'
+
+        group_dict[group_number] = {
+            'ip': popped_active_ip,
+            'link': link_temp
+        }
+
+        if len(ip_active_dict) == 0:
+            break
+
+        group_number += 1
+
+    pr
