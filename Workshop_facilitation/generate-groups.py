@@ -85,4 +85,13 @@ def download_files(bucket_name, LINK_FOLDER):
 
             if p_ip in ip_dict.values():
 
-                s3.meta.client.downl
+                s3.meta.client.download_file(bucket_name,
+                                             element.key,
+                                             str(Path(TMP_FOLDER).joinpath(
+                                                 element_list[-1])))
+
+    # Save the ip dict to track last active ec2 instances
+    write_json(ip_dict, IP_DICT_JSON_NAME)
+
+
+def allocate_new_g
