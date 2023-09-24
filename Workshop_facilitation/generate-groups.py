@@ -126,4 +126,21 @@ def allocate_new_groups():
 
         group_number += 1
 
-    pr
+    print('\nNew groups allocated to the running instances')
+    print(group_dict)
+    print('\n')
+
+    write_json(group_dict, GROUP_DICT_NAME)
+
+
+def update_and_allocate_instances(ip_active_dict):
+
+    # ip_active_dict = load_json(IP_DICT_JSON_NAME)
+
+    try:
+        group_dict = load_json(Path(GROUP_DICT_NAME))
+    except IOError:
+        allocate_new_groups()
+        return
+
+    # If any grou
