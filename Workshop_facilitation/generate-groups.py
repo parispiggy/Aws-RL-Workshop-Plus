@@ -167,4 +167,16 @@ def test_connection(BUCKET_NAME):
 
     # Set up logging
     logging.basicConfig(level=logging.DEBUG,
-        
+                        format='%(levelname)s: %(asctime)s: %(message)s')
+
+    # Check if the bucket exists
+    if bucket_exists(BUCKET_NAME):
+        logging.info(f'{BUCKET_NAME} exists and you have permission to access it.')
+    else:
+        logging.info(f'{BUCKET_NAME} does not exist or '
+                     f'you do not have permission to access it.')
+
+
+def generate_excel():
+
+    group_dic
