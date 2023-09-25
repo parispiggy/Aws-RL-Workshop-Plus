@@ -155,4 +155,16 @@ def update_and_allocate_instances(ip_active_dict):
 
     # This is untested
 
-    # Here we round up the used i
+    # Here we round up the used ips og the active ips to find out what
+    # active instances are vacant
+    non_vacant_instances = []
+    for group_n, info_d in group_dict.items():
+        if not group_dict[group_n] == {'ip': None, 'link': None}:
+            non_vacant_instances.append(group_dict[group_n]['ip'])
+
+
+def test_connection(BUCKET_NAME):
+
+    # Set up logging
+    logging.basicConfig(level=logging.DEBUG,
+        
