@@ -179,4 +179,19 @@ def test_connection(BUCKET_NAME):
 
 def generate_excel():
 
-    group_dic
+    group_dict = load_json(GROUP_DICT_NAME)
+
+    group_df = pd.DataFrame.from_dict(group_dict, orient='index')
+
+    group_df.to_excel('Groups.xlsx')
+
+    print('Excel generated and saved')
+
+
+def clean_up():
+    if Path(TMP_FOLDER).exists():
+        shutil.rmtree(TMP_FOLDER)
+    if Path(IP_DICT_JSON_NAME).exists():
+        os.remove(IP_DICT_JSON_NAME)
+    if Path(GROUP_DICT_NAME).exists():
+        os.remove(GROUP_D
