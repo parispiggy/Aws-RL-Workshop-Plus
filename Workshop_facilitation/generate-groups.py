@@ -194,4 +194,18 @@ def clean_up():
     if Path(IP_DICT_JSON_NAME).exists():
         os.remove(IP_DICT_JSON_NAME)
     if Path(GROUP_DICT_NAME).exists():
-        os.remove(GROUP_D
+        os.remove(GROUP_DICT_NAME)
+    if Path(GROUP_EXCEL_NAME).exists():
+        os.remove(GROUP_EXCEL_NAME)
+
+
+if __name__ == '__main__':
+
+    # Assign this value before running the program
+    BUCKET_NAME = 'rl-workshop-bucket'
+    LINK_FOLDER = 'RL-WS-links'
+
+    # input arguments
+    parser = argparse.ArgumentParser(description= 'Allocate running EC2 instances of RL-WS-image into groups')
+    parser.add_argument('-i', '--init', type=bool,
+           
