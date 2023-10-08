@@ -208,4 +208,9 @@ if __name__ == '__main__':
     # input arguments
     parser = argparse.ArgumentParser(description= 'Allocate running EC2 instances of RL-WS-image into groups')
     parser.add_argument('-i', '--init', type=bool,
-           
+                        help='Set this to yes or no wheter you are creating the groups for the first time or updating')
+    parser.add_argument('-c', '--clean', type=bool,
+                        help='Enable this if you want to clean the entire group setting')
+    parser.add_argument('-t', '--test', type=bool,
+                        help='Test the connection to the s3 bucket')
+    args = vars(parser.pa
