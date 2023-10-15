@@ -227,4 +227,9 @@ if __name__ == '__main__':
         allocate_new_groups()
         generate_excel()
 
-    # ip_org_dict = {'i-0345dc555876e6985': '54.174.112.245', 'i-0116da57317bfa93c': '3.87.192.207', 'i-0a2eb4c7cc444b
+    # ip_org_dict = {'i-0345dc555876e6985': '54.174.112.245', 'i-0116da57317bfa93c': '3.87.192.207', 'i-0a2eb4c7cc444b410': '52.23.168.91'}
+    # ip_new_dict = {'i-0345dc555876e6985': '54.174.112.245', 'i-0a2eb4c7cc444b410': '52.23.168.91'}
+    # ip_replaced_dict = {'i-0116da57317bfa93c': '3.87.192.207', 'i-0116daas317bfa93c': '9.87.192.207', 'i-0a2eb4c7cc444b410': '52.23.168.91', 'i-0116da57317bfa93c': '3.87.192.207'}
+    # elif args['update']:
+    #     download_files(BUCKET_NAME, LINK_FOLDER)
+    #     updat
