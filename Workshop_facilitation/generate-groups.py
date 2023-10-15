@@ -232,4 +232,11 @@ if __name__ == '__main__':
     # ip_replaced_dict = {'i-0116da57317bfa93c': '3.87.192.207', 'i-0116daas317bfa93c': '9.87.192.207', 'i-0a2eb4c7cc444b410': '52.23.168.91', 'i-0116da57317bfa93c': '3.87.192.207'}
     # elif args['update']:
     #     download_files(BUCKET_NAME, LINK_FOLDER)
-    #     updat
+    #     update_and_allocate_instances()
+
+
+
+
+
+
+
